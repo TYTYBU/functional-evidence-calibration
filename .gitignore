@@ -1,0 +1,17 @@
+# Downloaded ClinVar releases (large; regenerate with notebook 01)
+data/raw/
+
+# Cloned calibration tools (clone per README; do not commit)
+clingen-svi-comp_calibration/
+dist_curve/
+model.hdf5
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store

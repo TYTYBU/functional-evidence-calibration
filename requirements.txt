@@ -1,0 +1,14 @@
+# Core notebook dependencies.
+# NOTE: the calibration tool (clingen-svi-comp_calibration) relies on legacy NumPy
+# behaviour removed in NumPy >= 1.25 (implicit array-to-scalar assignment), and its
+# argparse setup fails on Python 3.14. Use Python 3.10/3.11 and the pins below.
+pandas==2.0.3
+numpy==1.24.4
+scipy==1.10.1
+plotnine
+
+# Required by the calibration tool (clingen-svi-comp_calibration)
+matplotlib==3.7.3
+
+# Optional: only needed to ESTIMATE the class prior (alpha) with dist_curve
+# tensorflow

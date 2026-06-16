@@ -1,0 +1,6 @@
+AMCG	ScoreThreshold	OddsOfPathogenicity
+VeryStrong(+8)	0.975400	300
+Strong(+4)	0.975400	17
+Three(+3)	0.975400	8
+Moderate(+2)	0.974700	4
+Supporting(+1)	0.974300	2

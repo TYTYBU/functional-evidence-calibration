@@ -1,0 +1,6 @@
+AMCG	ScoreThreshold	OddsOfBenignity
+VeryStrong(-8)	nan	300
+Strong(-4)	nan	17
+Three(-3)	0.044400	8
+Moderate(-2)	0.216000	4
+Supporting(-1)	0.265500	2
