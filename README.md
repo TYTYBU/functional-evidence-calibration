@@ -74,3 +74,9 @@ Edit the **Parameters** cell and the functional-data parser in notebook 02. The 
   [`pejaverlab/clingen-svi-comp_calibration`](https://github.com/pejaverlab/clingen-svi-comp_calibration).
 - **Class-prior estimation** — [`Dzeiberg/dist_curve`](https://github.com/Dzeiberg/dist_curve)
   (Zeiberg et al., AAAI 2020).
+
+## License
+
+Code and notebooks are released under the [MIT License](LICENSE). Bundled example data is
+licensed separately — the AlphaMissense example is CC BY-NC-SA 4.0 (non-commercial); ClinVar-derived
+data is public domain. See [LICENSE](LICENSE) for details.
