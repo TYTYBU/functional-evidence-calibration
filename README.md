@@ -64,6 +64,14 @@ Edit the **Parameters** cell and the functional-data parser in notebook 02. The 
 `gene`, `aapos`, `aaref`, `aaalt` columns plus your score column. Higher scores are assumed to be
 **more pathogenic** — negate a reversed assay before calibrating.
 
+> **Amino-acid level assumption.** The notebooks key on protein substitutions
+> (`gene`/`aapos`/`aaref`/`aaalt`) for both the score↔ClinVar merge and the calibration unit.
+> If your functional data is at the **nucleotide level** (per cDNA/genomic variant, e.g.
+> saturation genome editing or splice assays), you'll need to adapt the pipeline — either
+> collapse nucleotide scores to one value per amino-acid change, or re-key the merge and the
+> ClinVar table on genomic/coding coordinates (`chrom`/`genomic_pos`/`ref`/`alt` or
+> `cds_pos`), which notebook 01 already carries through in the full table.
+
 ## Data sources & citation
 
 - **ClinVar** — NCBI, `variant_summary.txt.gz`
